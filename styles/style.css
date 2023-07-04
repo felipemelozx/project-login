@@ -36,8 +36,12 @@ html, body {
 
 #image {
     background: url(../image/astronauta.svg) no-repeat;
-    width: 50vw;
-    height: 50vh;
+    background-position: center;
+    background-size: contain;
+    width: 50rem;
+    height: 50rem;
+    min-width: 40px;
+    min-height: 400px;
     display: flex;
     margin-left: 18.75rem;
     
@@ -70,7 +74,7 @@ html, body {
 
 #login form div input {
     padding: 10px;
-    min-width: 25rem;
+    min-width: 20rem;
     width: 23vw;
     height: 5vh;
     border-radius: 24px;
@@ -86,7 +90,7 @@ html, body {
     display: block;
     margin: auto;
     width: 23rem;
-    min-width: 25rem;
+    min-width: 20rem;
     height: 3rem;
     font-weight: 800;
     outline: none;

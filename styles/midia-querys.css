@@ -1,0 +1,19 @@
+@media (max-width: 1400px) {
+    #tela{
+        flex-direction: column;
+    }
+   #image{
+    max-width: 400px;
+    margin: 0px auto;
+   }
+}
+@media (max-width: 480px){
+    #image{
+        display: none;
+    }
+    #buton {
+       
+    max-width: 50px;
+       
+    }
+}
